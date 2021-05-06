@@ -5,6 +5,8 @@
   align-items: center;
   background-image: url("../assets/utah-1-min.JPG");
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   height: 100vh;
   h2 {
     color: red;
@@ -13,6 +15,6 @@
   Button {
     color: white;
     border: 1px solid white;
-    background-color: transparent;
+    background-color: rgba(128, 128, 128, 0.692);
   }
 }
