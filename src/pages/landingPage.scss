@@ -1,0 +1,18 @@
+.landing-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../assets/utah-1-min.JPG");
+  background-size: cover;
+  height: 100vh;
+  h2 {
+    color: red;
+  }
+
+  Button {
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+  }
+}
