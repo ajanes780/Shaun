@@ -8,13 +8,19 @@
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
-  h2 {
-    color: red;
-  }
 
-  Button {
+  button {
     color: white;
     border: 1px solid white;
+    padding: 10px;
+    border-radius: 8px;
     background-color: rgba(128, 128, 128, 0.692);
+  }
+
+  button:hover {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid white;
+    background-color: black;
   }
 }
